@@ -11,19 +11,19 @@ const Project = () => {
       </div>
       <ul className='text-center space-x-10 md:space-x-20 mb-10 font-medium'>
         <NavLink 
-          to="/" 
+          to="/EddyPortfolio/" 
           className='Nav-link hover:text-gray-950 hover:bg-ColorVert py-1 px-3 rounded-lg' 
         >
           Tous
         </NavLink>
         <NavLink 
-          to="/frontend" 
+          to="/EddyPortfolio/frontend" 
           className='Nav-link hover:text-gray-950 hover:bg-ColorVert py-1 px-3 rounded-lg'
         >
           Frontend
         </NavLink>
         <NavLink 
-          to="/fullstack"
+          to="/EddyPortfolio/fullstack"
           className='Nav-link hover:text-gray-950 hover:bg-ColorVert py-1 px-3 rounded-lg'
         >
           Fullstack

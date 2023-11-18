@@ -24,8 +24,8 @@ function App() {
       <Hero />
       <Techno />
       <Routes>
-        <Route path="/" element={<Project />}>
-          <Route path="/" element={<AllProject />} />
+        <Route path="/EddyPortfolio/" element={<Project />}>
+          <Route path="/EddyPortfolio/" element={<AllProject />} />
           <Route path="frontend" element={<Frontend />} />
           <Route path="fullstack" element={<Fullstack />} />
         </Route>
