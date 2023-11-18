@@ -8,7 +8,7 @@ const Techno = () => {
   return (
     <div className='max-w-5xl w-full mx-auto pt-12 pb-20 px-3' id='skills'>
       <div></div>
-      <div className='relative text-center font-bold dark:text-gray-300 text-gray-900  text-base mt-14 mb-24 transition-all duration-700'>
+      <div className='relative text-center font-bold dark:text-gray-300 text-gray-900  text-base mt-16 mb-24 transition-all duration-700'>
         Mes Compétences
         <span className='absolute bg-ColorVert w-24 h-[6px] mx-auto top-7 inset-x-0'></span>
       </div>
