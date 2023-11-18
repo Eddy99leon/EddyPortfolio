@@ -32,7 +32,7 @@ function App() {
       </Routes>
       <Footer />
       <div 
-        className='fixed right-5 md:right-10 bottom-8 cursor-pointer md:text-xl bg-ColorVert p-2 text-gray-950 shadow-sm shadow-ColorVert'
+        className='fixed right-5 md:right-10 bottom-8 cursor-pointer md:text-xl bg-ColorVert p-1 md:p-2 text-gray-950 shadow-sm shadow-ColorVert'
         onClick={BackToTop}
       >
         <IoIosArrowUp />

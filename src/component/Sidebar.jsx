@@ -31,12 +31,12 @@ const Sidebar = () => {
 
         <ul className="mx-auto text-center space-y-4 font-medium text-lg">
           <li onClick={handleClose}>
-            <a className="transition-all hover:text-ColorVert" href="#Skills">
+            <a className="transition-all hover:text-ColorVert" href="#skills">
               Skills
             </a>
           </li>
           <li onClick={handleClose}>
-            <a className="transition-all hover:text-ColorVert" href="#projects">
+            <a className="transition-all hover:text-ColorVert" href="#projets">
               Projects
             </a>
           </li>

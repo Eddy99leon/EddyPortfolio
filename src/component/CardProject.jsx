@@ -7,7 +7,7 @@ const CardProject = ({Project}) => {
   const { Pic, Nom, Description, TechnoFront, TechnoBack, LiveLink, CodeLink } = Project
 
   return (
-    <div className='max-w-[360px] border border-gray-400 dark:border-gray-800 px-3 pt-3 rounded'>
+    <div className='max-w-[360px] border border-gray-400 dark:border-gray-700 px-3 pt-3 rounded'>
         <div className='w-full h-[200px] overflow-hidden mb-3 rounded'>
           <img className='object-cover' src={hero1} alt="hero" />
         </div>
