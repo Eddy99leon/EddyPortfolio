@@ -4,7 +4,7 @@ import { BiLogoFacebookCircle, BiLogoGithub, BiLogoLinkedinSquare } from 'react-
 const Footer = () => {
   return (
     <div>
-      <div className='flex max-w-5xl w-full justify-between items-center mx-auto py-6 md:py-10 px-3 border-t border-gray-400 dark:border-gray-700'>
+      <div className='flex max-w-5xl w-full justify-between items-center mx-auto py-6 md:py-10 px-3 border-t border-gray-400 dark:border-gray-800'>
         <a className="flex text-2xl md:text-3xl font-bold">
           <nav className=' text-ColorVert'>Ed</nav>dy.
         </a>
@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className='text-center font-medium text-sm md:text-base text-gray-950 dark:text-gray-200 border-t border-gray-400 dark:border-gray-700 py-3 transition-all duration-700'>
+      <div className='text-center font-medium text-sm md:text-base text-gray-950 dark:text-gray-200 border-t border-gray-400 dark:border-gray-800 py-3 transition-all duration-700'>
         ©️ Coder avec le ❤️ par Eddy Leon.
       </div>
     </div>
