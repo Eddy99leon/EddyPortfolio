@@ -40,7 +40,7 @@ const CardProject = ({Project}) => {
           }
           
         </div>
-        <div className='grid grid-cols-2 justify-items-center mt-4 border-t border-gray-300 dark:border-gray-900 py-2 gap-2 font-medium text-gray-900 dark:text-gray-200'>
+        <div className='grid grid-cols-2 justify-items-center mt-4 border-t border-gray-300 dark:border-gray-700 py-2 gap-2 font-medium text-gray-900 dark:text-gray-200'>
           <div className='flex items-center gap-1 transition-all duration-700'>
             <BiGlobe className='text-3xl' />
             Live
