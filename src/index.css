@@ -9,7 +9,7 @@
     @apply bg-ColorVert py-1 px-3 text-gray-950
 }
 ::-webkit-scrollbar{
-    @apply w-[13px]
+    @apply w-[10px]
 }
 ::-webkit-scrollbar-thumb{
     @apply bg-ColorVert rounded-sm
