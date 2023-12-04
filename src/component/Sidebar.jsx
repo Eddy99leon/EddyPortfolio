@@ -55,7 +55,7 @@ const Sidebar = () => {
           </a>
           <a 
             className=" hover:transform hover:scale-95" 
-            href="#lien"
+            href="https://www.linkedin.com/in/eddy-andriamisaina-863431299"
             target='_blank'
           >
             <BiLogoLinkedinSquare className='text-3xl' />
