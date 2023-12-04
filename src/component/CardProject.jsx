@@ -14,7 +14,7 @@ const CardProject = ({Project}) => {
     <div className='max-w-[360px] flex flex-col justify-between border border-gray-400 dark:border-gray-700 px-3 pt-3 rounded'>
         <div>
           <div className='w-full h-[200px] overflow-hidden mb-3 rounded'>
-            <img className='object-cover' src={Pic} alt="projet" />
+            {Pic && <img className='object-cover' src={Pic} alt="projet" />}
           </div>
           <div className='px-2'>
             <h1 className='font-medium text-ColorVert text-lg mb-1'>
