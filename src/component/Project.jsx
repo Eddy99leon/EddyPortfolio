@@ -11,7 +11,7 @@ const Project = () => {
       </div>
       <ul className='text-center space-x-10 md:space-x-20 mb-10 font-medium'>
         <NavLink 
-          to="/EddyPortfolio/" 
+          to="/EddyPortfolio/"
           className='Nav-link hover:text-gray-950 hover:bg-ColorVert py-1 px-3 rounded-lg' 
         >
           Tous

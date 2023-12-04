@@ -34,7 +34,7 @@ function Hero() {
               </span>
               <BiDownArrowCircle className='text-xl ml-1' />
             </a>
-            <a href="#about" className="font-semibold text-sm dark:text-gray-200 text-gray-950 hover:text-ColorVert transition-all duration-700">
+            <a href="#skills" className="font-semibold text-sm dark:text-gray-200 text-gray-950 hover:text-ColorVert transition-all duration-700">
               Savoir plus &nbsp; →
             </a>
           </div>

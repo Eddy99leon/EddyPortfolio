@@ -10,6 +10,7 @@ import Frontend from './component/Frontend'
 import Fullstack from './component/Fullstack'
 import Sidebar from './component/Sidebar'
 import { IoIosArrowUp } from 'react-icons/io'
+import Popup from './component/Popup'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <div className='font-Poppins bg-white text-gray-950 dark:text-gray-100 dark:bg-slate-950 transition-all duration-700'>
+      <Popup />
       <Sidebar />
       <Navbar />
       <Hero />

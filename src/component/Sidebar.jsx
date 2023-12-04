@@ -5,7 +5,7 @@ import { BiLogoFacebookCircle, BiLogoGithub, BiLogoLinkedinSquare } from 'react-
 
 const Sidebar = () => {
   
-  const {isOpen, handleClose} = useContext(SidebarContext)
+  const {isOpen, setIsOpen, handleClose} = useContext(SidebarContext)
 
   return (
     <div 
@@ -22,7 +22,10 @@ const Sidebar = () => {
       `}
       >
         <div className='py-5'>
-          <IoMdArrowForward onClick={handleClose} className="text-2xl cursor-pointer" />
+          <IoMdArrowForward 
+            onClick={()=> { setIsOpen(false), document.body.style.overflow = "auto" }} 
+            className="text-2xl cursor-pointer" 
+          />
         </div>
 
         <div className="flex text-4xl font-bold text-center justify-center mb-12 mt-6">

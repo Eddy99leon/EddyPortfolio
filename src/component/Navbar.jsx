@@ -10,7 +10,7 @@ const Navbar = () => {
     const {theme, handleSwitchTheme} = useContext(ThemeContext);
 
     return ( 
-        <div className='w-full fixed bg-white dark:bg-slate-950 border-b border-gray-200 dark:border-gray-800 z-10 transition-all duration-700'>
+        <div className='w-full fixed bg-white dark:bg-slate-950 border-b border-gray-200 dark:border-gray-800 z-20 transition-all duration-700'>
             <nav className="flex max-w-5xl w-full justify-between items-center mx-auto py-3 md:py-5 px-3"> 
                 <a className="flex text-2xl md:text-3xl font-bold">
                     <nav className=' text-ColorVert'>Ed</nav>dy.
@@ -39,7 +39,7 @@ const Navbar = () => {
                         }
                     </div>
                     <div 
-                        onClick={()=> setIsOpen(!isOpen)} 
+                        onClick={()=> { setIsOpen(!isOpen), document.body.style.overflow = "hidden" }}
                         className=" hover:text-ColorVert cursor-pointer md:hidden"
                     >
                         <BiMenu className='text-3xl' />
