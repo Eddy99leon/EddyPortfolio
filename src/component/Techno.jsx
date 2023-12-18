@@ -39,6 +39,12 @@ const Techno = () => {
         </div>
         <div>
           <img 
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" 
+            className='w-[70px]' 
+          />
+        </div>
+        <div>
+          <img 
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" 
             className='w-[70px]' 
           />
@@ -57,9 +63,29 @@ const Techno = () => {
         </div>
         <div className='transition-all duration-700'>
             { theme === "dark" ? 
-              <i className="devicon-express-original text-gray-200 text-5xl sm:text-7xl"></i>
+              <i className="devicon-express-original text-gray-300 text-5xl sm:text-8xl"></i>
               :
-              <i className="devicon-express-original text-gray-950 text-5xl sm:text-7xl"></i>
+              <i className="devicon-express-original text-gray-950 text-5xl sm:text-8xl"></i>
+            }
+        </div>
+        <div className='transition-all duration-700'>
+            { theme === "dark" ? 
+              <i className="devicon-nextjs-original text-gray-300 text-5xl sm:text-7xl"></i>
+              :
+              <i className="devicon-nextjs-original text-gray-950 text-5xl sm:text-7xl"></i>
+            }
+        </div>
+        <div>
+          <img 
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" 
+            className='w-[70px]' 
+          />
+        </div>
+        <div className='transition-all duration-700'>
+            { theme === "dark" ? 
+              <i className="devicon-github-original-wordmark text-gray-300 text-5xl sm:text-7xl"></i>
+              :
+              <i className="devicon-github-original-wordmark text-gray-950 text-5xl sm:text-7xl"></i>
             }
         </div>
       </div>
