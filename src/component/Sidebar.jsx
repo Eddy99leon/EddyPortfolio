@@ -33,12 +33,12 @@ const Sidebar = () => {
         </div>
 
         <ul className="mx-auto text-center space-y-4 font-medium text-lg">
-          <li onClick={handleClose}>
+          <li onClick={()=> { setIsOpen(false), document.body.style.overflow = "auto" }}>
             <a className="transition-all hover:text-ColorVert" href="#skills">
               Skills
             </a>
           </li>
-          <li onClick={handleClose}>
+          <li onClick={()=> { setIsOpen(false), document.body.style.overflow = "auto" }}>
             <a className="transition-all hover:text-ColorVert" href="#projets">
               Projects
             </a>
