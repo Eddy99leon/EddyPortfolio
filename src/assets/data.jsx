@@ -18,17 +18,6 @@ export const Projects = [
     },
     {
         "id": 2,
-        "Pic": onifra,
-        "Nom": "Onifra.mg",
-        "Category": "fullstack",
-        "Description": "Le projet en question concerne un site universitaire, où j'ai été chargé à la fois de concevoir la maquette et d'assurer l'intégration du frontend.",
-        "TechnoFront": "Tailwind et ReactJs",
-        "TechnoBack": "MySQL et Laravel",
-        "LiveLink": "https://onifra.mg",
-        "CodeLink": ""
-    },
-    {
-        "id": 3,
         "Pic": madagascar,
         "Nom": "Madagascar",
         "Category": "frontend",
@@ -37,6 +26,17 @@ export const Projects = [
         "TechnoBack": "",
         "LiveLink": "https://eddy99leon.github.io/Madagascar/",
         "CodeLink": "https://github.com/Eddy99leon/Madagascar"
+    },
+    {
+        "id": 3,
+        "Pic": onifra,
+        "Nom": "Onifra.mg",
+        "Category": "fullstack",
+        "Description": "Le projet en question concerne un site universitaire, où j'ai été chargé à la fois de concevoir la maquette et d'assurer l'intégration du frontend.",
+        "TechnoFront": "Tailwind et ReactJs",
+        "TechnoBack": "MySQL et Laravel",
+        "LiveLink": "https://onifra.mg",
+        "CodeLink": ""
     },
     {
         "id": 4,
