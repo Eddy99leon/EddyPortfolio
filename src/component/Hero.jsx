@@ -1,6 +1,7 @@
 import React from 'react'
-import hero1 from "../assets/hero1.jpg"
+import hero2 from "../assets/hero2.jpeg"
 import EddyLéonCv from "../assets/EddyLéonCv.pdf"
+import { TypeAnimation } from 'react-type-animation';
 import { BiDownArrowCircle, BiLogoFacebookCircle, BiLogoGithub, BiLogoLinkedinSquare } from 'react-icons/bi';
 
 function Hero() {
@@ -8,8 +9,8 @@ function Hero() {
     
     <section className='max-w-5xl w-full mx-auto pt-[85px] pb-2 px-3'>
       <div className="pt-10 pb-5 mx-auto md:pt-16 md:pb-20">
-        <div className='mx-auto max-w-[150px]'>
-          <img className='border-4 border-ColorVert rounded-full object-cover' src={hero1} alt="hero" />
+        <div className='mx-auto max-w-[200px] '>
+          <img className='border-4 border-ColorVert rounded-full object-cover' src={hero2} alt="hero" />
         </div>
 
         <div className="justify-center w-full mt-10 text-center">
@@ -17,10 +18,22 @@ function Hero() {
             <p className="mt-4 text-5xl sm:text-6xl font-semibold font-HandWriter dark:text-gray-200 text-gray-950 transition-all duration-700">
               Eddy Léon
             </p>
-            <p className="mx-auto text-xl font-bold dark:text-gray-200 text-gray-950 md:text-2xl transition-all duration-700 mb-1">
+            <p className="mx-auto text-xl font-bold dark:text-gray-200 text-gray-950 md:text-2xl transition-all duration-700 mb-2">
               Dévéloppeur créative 
               <span className='text-ColorVert ml-2'>
-                Fullstack JS,
+                <TypeAnimation
+                  sequence={[
+                    "FrontEnd",
+                    1000,
+                    "React JS",
+                    1000,
+                    "Next JS",
+                    1000,
+                  ]}
+                  wrapper='span'
+                  speed={40}
+                  repeat={Infinity}
+                />
               </span>
             </p>
             <p className="mx-auto font-medium dark:text-gray-300 text-gray-800 text-md transition-all duration-700">

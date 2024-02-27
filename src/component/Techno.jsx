@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext';
+import tailwind from "../assets/tailwind.png"
 
 const Techno = () => {
 
@@ -33,7 +34,7 @@ const Techno = () => {
         </div>
         <div>
           <img 
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" 
+            src={tailwind}
             className='w-[70px]' 
           />
         </div>

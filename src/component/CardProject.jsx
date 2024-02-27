@@ -11,7 +11,7 @@ const CardProject = ({Project}) => {
   const { Pic, Nom, Description, TechnoFront, TechnoBack, LiveLink, CodeLink } = Project
 
   return (
-    <div className='max-w-[360px] flex flex-col justify-between border border-gray-400 dark:border-gray-700 px-3 pt-3 rounded'>
+    <div className='max-w-[400px] flex flex-col justify-between border border-gray-400 dark:border-gray-700 px-3 pt-3 rounded'>
         <div>
           <div className='w-full h-[200px] overflow-hidden mb-3 rounded'>
             {Pic && <img className='object-cover min-h-[200px]' src={Pic} alt="projet" />}

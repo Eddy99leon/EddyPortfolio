@@ -49,15 +49,4 @@ export const Projects = [
         "LiveLink": "https://noteo.grossiste.mg/",
         "CodeLink": ""
     },
-    {
-        "id": 5,
-        "Pic": portfolio,
-        "Nom": "EddyPortfolio",
-        "Category": "frontend",
-        "Description": "Ce site présente un aperçu de mes compétences et de ce que je sais faire, mettant en valeur mes réalisation à travers différents projets.",
-        "TechnoFront": "Tailwind et ReactJs",
-        "TechnoBack": "",
-        "LiveLink": "https://eddy99leon.github.io/EddyPortfolio/",
-        "CodeLink": "https://github.com/Eddy99leon/EddyPortfolio"
-    },
 ];
