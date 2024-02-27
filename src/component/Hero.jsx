@@ -7,7 +7,7 @@ import { BiDownArrowCircle, BiLogoFacebookCircle, BiLogoGithub, BiLogoLinkedinSq
 function Hero() {
   return (
     
-    <section className='max-w-5xl w-full mx-auto pt-[80px] pb-2 px-3'>
+    <section className='max-w-5xl w-full mx-auto pt-[60px] pb-2 px-3'>
       <div className="pt-10 pb-5 mx-auto md:pt-16 md:pb-20">
         <div className='mx-auto max-w-[200px] '>
           <img className='border-4 border-ColorVert rounded-full object-cover' src={hero2} alt="hero" />
