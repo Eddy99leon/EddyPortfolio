@@ -18,6 +18,11 @@ const Navbar = () => {
                 <div className='flex items-center space-x-6'>
                   <ul className="hidden mx-auto space-x-6 font-medium md:flex dark:text-gray-200 text-gray-950">
                       <li>
+                        <a className="transition-all hover:text-ColorVert" href="#abouts">
+                            Abouts
+                        </a>
+                      </li>
+                      <li>
                         <a className="transition-all hover:text-ColorVert" href="#skills">
                             Skills
                         </a>
