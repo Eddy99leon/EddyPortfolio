@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <div className='max-w-5xl w-full mx-auto pt-16 pb-20 px-3' id='projets'>
       <div></div>
-      <div className='relative text-center mt-10 font-bold dark:text-gray-300 text-gray-900 text-base mb-14 transition-all duration-700'>
+      <div className='relative text-center mt-10 font-bold dark:text-gray-300 text-gray-900 text-base md:text-lg lg:text-xl mb-14 transition-all duration-700'>
         Mes Derniers Projets
         <span className='absolute bg-ColorVert w-24 h-[6px] mx-auto top-7 inset-x-0'></span>
       </div>

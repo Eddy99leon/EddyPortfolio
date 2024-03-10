@@ -1,20 +1,19 @@
 import onifra from "../assets/OnifraDes.jpg"
-import noteo from "../assets/NoteoDes.jpg"
 import madagascar from "../assets/MadagascarDes.jpg"
-import portfolio from "../assets/PortfolioDes.jpg"
 import EddyDev from "../assets/EddyDev.png"
+import ohabolana from "../assets/ohabolana.jpeg"
 
 export const Projects = [
     {
         "id": 1,
-        "Pic": EddyDev,
-        "Nom": "EddyDev",
+        "Pic": ohabolana,
+        "Nom": "OhabolanaGasy",
         "Category": "fullstack",
         "Description": "Ce projet un plateforme qui présente un aperçu de mes realisations, mettant en valeur mes réalisation à travers différents projets.",
         "TechnoFront": "NextJs et Tailwind CSS",
         "TechnoBack": "MongoDB et Mongoose",
-        "LiveLink": "https://eddy-dev.vercel.app/",
-        "CodeLink": "https://github.com/Eddy99leon/EddyDev"
+        "LiveLink": "https://ohabolanagasy.vercel.app/",
+        "CodeLink": "https://github.com/Eddy99leon/ohabolana"
     },
     {
         "id": 2,
@@ -40,13 +39,13 @@ export const Projects = [
     },
     {
         "id": 4,
-        "Pic": noteo,
-        "Nom": "Noteo.grossiste.mg",
+        "Pic": EddyDev,
+        "Nom": "EddyDev",
         "Category": "fullstack",
-        "Description": "Noteo se présente comme une plateforme d'avis en ligne à Madagascar, offrant aux utilisateurs la possibilité de partager leurs expériences variées sur un large éventail de produits et services.",
-        "TechnoFront": "Tailwind et ReactJs",
-        "TechnoBack": "MySQL et Node/Express",
-        "LiveLink": "https://noteo.grossiste.mg/",
-        "CodeLink": ""
+        "Description": "Ce projet un plateforme qui présente un aperçu de mes realisations, mettant en valeur mes réalisation à travers différents projets.",
+        "TechnoFront": "NextJs et Tailwind CSS",
+        "TechnoBack": "MongoDB et Mongoose",
+        "LiveLink": "https://eddy-dev.vercel.app/",
+        "CodeLink": "https://github.com/Eddy99leon/EddyDev"
     },
 ];

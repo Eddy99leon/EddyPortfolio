@@ -11,6 +11,7 @@ import Fullstack from './component/Fullstack'
 import Sidebar from './component/Sidebar'
 import { IoIosArrowUp } from 'react-icons/io'
 import Popup from './component/Popup'
+import About from './component/About'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Sidebar />
       <Navbar />
       <Hero />
+      <About />
       <Techno />
       <Routes>
         <Route path="/EddyPortfolio/" element={<Project />}>
