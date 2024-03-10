@@ -9,7 +9,7 @@ export const Projects = [
         "Pic": ohabolana,
         "Nom": "OhabolanaGasy",
         "Category": "fullstack",
-        "Description": "Ce projet un plateforme qui présente un aperçu de mes realisations, mettant en valeur mes réalisation à travers différents projets.",
+        "Description": "OhabolanaGasy est une plateforme dédiée à la collecte, à la sauvegarde et à la diffusion des citations traditionnelles malgaches. Elle offre un espace de partage et de collaboration pour les utilisateurs.",
         "TechnoFront": "NextJs et Tailwind CSS",
         "TechnoBack": "MongoDB et Mongoose",
         "LiveLink": "https://ohabolanagasy.vercel.app/",
