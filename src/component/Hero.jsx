@@ -1,6 +1,6 @@
 import React from 'react'
 import hero2 from "../assets/hero2.jpeg"
-import EddyLéonCv from "../assets/EddyLéonCv.pdf"
+import EddyLéonCv from "../assets/Eddy_Léon_Cv.pdf"
 import { TypeAnimation } from 'react-type-animation';
 import { BiDownArrowCircle, BiLogoFacebookCircle, BiLogoGithub, BiLogoLinkedinSquare } from 'react-icons/bi';
 
